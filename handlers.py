@@ -69,4 +69,5 @@ HANDLERS = [
         {"path": os.path.join(DIST, "assets")},
     ),
     (r"/chain-explorer/?", ChainExplorerHandler),
+    (r"/explorer/?", ChainExplorerHandler),
 ]
